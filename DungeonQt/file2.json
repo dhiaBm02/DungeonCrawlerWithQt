@@ -1,0 +1,47 @@
+{
+    "door": {
+        "Col": 6,
+        "Row": 7,
+        "isOpen?": true
+    },
+    "map": "###########O.......##.......B##.._<_.O.##........##...O....##......X###O...L...##...?.<..###########",
+    "player": {
+        "Col": 8,
+        "MaxHP": 420,
+        "Row": 4,
+        "Stamina": 2120,
+        "Strength": 30
+    },
+    "switch": {
+        "Col": 8,
+        "Row": 4,
+        "doors": {
+            "Col": 6,
+            "Row": 7,
+            "isOpen?": true
+        }
+    },
+    "zombies": {
+        "Attacker": {
+            "Col": 6,
+            "MaxHP": 100,
+            "Row": 2,
+            "Stamina": 520,
+            "Strength": 20
+        },
+        "NPC M": {
+            "Col": 5,
+            "MaxHP": 100,
+            "Row": 1,
+            "Stamina": 520,
+            "Strength": 20
+        },
+        "NPC N": {
+            "Col": 8,
+            "MaxHP": 100,
+            "Row": 1,
+            "Stamina": 520,
+            "Strength": 20
+        }
+    }
+}
